@@ -5,13 +5,74 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="./style.css">
-	<title>task 0</title>
+	<link rel="stylesheet" href="css/style.css">
+	<script src="https://kit.fontawesome.com/069a9a1876.js" crossorigin="anonymous"></script>
+	<title>Портфолио</title>
 </head>
 
 <body>
+	<div class="wrapper">
+		<header class="header">
 
-	
+		</header>
+		<main class="page">
+			<section class="introduction introduction-go">
+				<div class="introduction__container">
+					<div class="introduction__greeting">Привет, я <span> Кирилл Владимиров</span>.<br> Я junior front-end
+						разработчик.</div>
+					<nav><a data-goto=".works-go" href="#" class="introduction__btn scrollBtn">Посмотрите мои работы <i
+								class="fas fa-arrow-right"></i></a></nav>
+				</div>
+			</section>
+			<section class="works works-go">
+				<div class="works__container">
+					<div class="works__title">Проекты</div>
+					<div class="works__line">пустота</div>
+					<div class="works__gallery">
+						<div class="works__gallery-item">
+							<div class="gallery-item__image"></div>
+							<div class="gallery-item__text identical ">SufariTours</div>
+							<a href="#" class="gallery-item__btn identical ">Посмотреть</a>
+						</div>
+						<div class="works__gallery-item">
+							<div class="gallery-item__image"></div>
+							<div class="gallery-item__text identical ">SufariTours</div>
+							<a href="#" class="gallery-item__btn identical ">Посмотреть</a>
+						</div>
+						<div class="works__gallery-item">
+							<div class="gallery-item__image"></div>
+							<div class="gallery-item__text identical  ">SufariTours</div>
+							<a href="#" class="gallery-item__btn identical  ">Посмотреть</a>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="contact">
+				<div class="contact__container">
+					<div class="contact__title">Контакты</div>
+					<div class="contact__line"></div>
+					<div class="contact__question">У вас есть вопрос или вы хотите работать вместе?</div>
+					<form action="#" class="contact__form">
+						<input class="contact__name contact__form-items" type="text" placeholder="Имя">
+						<input class="contact__email contact__form-items" type="email" placeholder="Введите email">
+						<textarea class="contact__message contact__form-items" placeholder="Ваше сообщение"></textarea>
+						<div class="contact__btn-box"><button class="contact__btn" type="submit">Отправить</button></div>
+					</form>
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+			<div class="footer__container">
+				<nav><a href="" data-goto=".introduction" class="footer__upper scrollBtn fas fa-fighter-jet"></a></nav>
+				<ul class="footer__social-group">
+					<li><a href="" class="footer__social vk fab fa-vk"></a></li>
+					<li><a href="" class="footer__social inst fab fa-instagram"></a></li>
+				</ul>
+				<div class="footer__author-rights">ВЛАДИМИРОВ КИРИЛЛ <span>©2021</span></div>
+			</div>
+		</footer>
+	</div>
+
 	<script src="./script.js"></script>
 
 </body>
