@@ -138,7 +138,6 @@ body {
 	}
 }
 .identical {
-	visibility: visible;
 	position: absolute;
 	left: 0;
 	left: 50%;
@@ -160,7 +159,8 @@ body {
 	opacity: 1;
 }
 
-.works__title {
+.works__title,
+.technologies__title {
 	background: linear-gradient(to right, red, orange, yellow, green, cyan, blue, violet);
 	background-size: 400% 400%;
 	-webkit-background-clip: text;
@@ -198,6 +198,110 @@ body {
 	100% {
 		background-position: 0% 50%;
 	}
+}
+
+.technologies {
+	background-color: black;
+	&__container {
+		max-width: 1000px;
+		margin: 0 auto;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		padding: 60px 0 40px 0;
+	}
+
+	&__title {
+		font-size: 38px;
+		color: #fff;
+		text-align: center;
+	}
+
+	&__text {
+		color: #04c2c9;
+		font-weight: 600;
+		font-size: 18px;
+		padding: 10px 0 30px 0;
+		span {
+			color: red;
+			font-size: 20px;
+		}
+	}
+
+	&__markings {
+		display: flex;
+	}
+	&__marking {
+		width: 200px;
+		text-align: center;
+		border-radius: 5px;
+		padding: 10px;
+		margin: 0 5px;
+		font-size: 16px;
+	}
+	&__marking-green {
+	}
+	&__marking-yellow {
+	}
+	&__marking-red {
+	}
+
+	&__body {
+		display: flex;
+		padding: 10px 0 0 0;
+	}
+
+	&__color-section {
+		font-size: 20px;
+		width: 300px;
+		text-align: center;
+		border-radius: 10px;
+		margin: 0 10px;
+		li {
+			padding: 20px 0;
+			&:first-child {
+				padding: 15px 0 0 0;
+			}
+			&:last-child {
+				padding: 0 0 15px 0;
+			}
+		}
+	}
+
+	&__request {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		padding: 30px 0 0 0;
+	}
+
+	&__request-text {
+		color: #04c2c9;
+		font-weight: 600;
+		font-size: 18px;
+	}
+
+	&__request-btn {
+		color: #04c2c9;
+		display: inline-block;
+		font-weight: 600;
+		font-size: 40px;
+		text-align: center;
+		margin: 20px 0 0 0;
+		&:hover {
+			text-shadow: -10px -10px 1em blue, 10px 0 1em blue, 0 0 0.2em blue;
+		}
+	}
+}
+.green {
+	background-color: #0fff17;
+}
+.yellow {
+	background-color: #fff01f;
+}
+.red {
+	background-color: #ff5f0f;
 }
 
 .contact {
