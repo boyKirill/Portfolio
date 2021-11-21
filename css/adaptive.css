@@ -1,0 +1,30 @@
+@media screen and (max-width: 700px) {
+  .introduction__greeting {
+    font-size: 32px;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .introduction__greeting {
+    font-size: 27px;
+  }
+}
+
+@media screen and (max-width: 440px) {
+  .introduction__greeting {
+    font-size: 22px;
+  }
+  .introduction__btn {
+    font-size: 17px;
+  }
+}
+
+@media screen and (max-width: 340px) {
+  .introduction__greeting {
+    font-size: 20px;
+  }
+  .introduction__btn {
+    font-size: 15px;
+    margin: 0 10px;
+  }
+}

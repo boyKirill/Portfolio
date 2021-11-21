@@ -1,0 +1,90 @@
+@media screen and (max-width: 700px) {
+	.introduction {
+		&__container {
+		}
+
+		&__greeting {
+			font-size: 32px;
+		}
+
+		&__btn {
+		}
+	}
+	.introduction-go {
+	}
+	.scrollBtn {
+	}
+	.fas {
+	}
+	.fa-arrow-right {
+	}
+}
+
+@media screen and (max-width: 520px) {
+	.introduction {
+		&__container {
+		}
+
+		&__greeting {
+			font-size: 27px;
+		}
+
+		&__btn {
+		}
+	}
+	.introduction-go {
+	}
+	.scrollBtn {
+	}
+	.fas {
+	}
+	.fa-arrow-right {
+	}
+}
+
+@media screen and (max-width: 440px) {
+	.introduction {
+		&__container {
+		}
+
+		&__greeting {
+			font-size: 22px;
+		}
+
+		&__btn {
+			font-size: 17px;
+		}
+	}
+	.introduction-go {
+	}
+	.scrollBtn {
+	}
+	.fas {
+	}
+	.fa-arrow-right {
+	}
+}
+
+@media screen and (max-width: 340px) {
+	.introduction {
+		&__container {
+		}
+
+		&__greeting {
+			font-size: 20px;
+		}
+
+		&__btn {
+			font-size: 15px;
+			margin: 0 10px;
+		}
+	}
+	.introduction-go {
+	}
+	.scrollBtn {
+	}
+	.fas {
+	}
+	.fa-arrow-right {
+	}
+}
