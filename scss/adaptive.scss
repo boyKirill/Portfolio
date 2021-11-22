@@ -63,6 +63,47 @@
 	}
 	.fa-arrow-right {
 	}
+
+	.works {
+
+		&__container {
+			padding: 60px 0 90px 0;
+		}
+
+		&__title {
+		}
+
+		&__line {
+			margin: 15px auto 40px auto;
+		}
+
+		&__gallery {
+		}
+
+		&__gallery-item {
+		}
+}
+.gallery-item {
+
+		&__image {
+		}
+
+		&__second-bg {
+		}
+
+		&__list {
+		}
+
+		&__list-item {
+			
+		}
+
+		&__btn {
+		}
+}
+.identical {
+}
+
 }
 
 @media screen and (max-width: 340px) {
